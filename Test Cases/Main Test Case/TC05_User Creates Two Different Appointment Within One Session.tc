@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_User Creates Two Different Appointment Within One Session</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdd15a64-a43f-42ce-a48f-8b5e3a921c1f</testCaseGuid>
+</TestCaseEntity>
