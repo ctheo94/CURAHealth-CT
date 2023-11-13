@@ -27,6 +27,6 @@ Located under Object Repository. Objects on different pages are put inside diffe
 
 ![image](https://github.com/ctheo94/CURAHealth-KL/assets/31802223/2ed1d6b9-6e39-44be-b624-e60bf14f58e3)
 
-For more info, you can check this attached document: [Test Object Guide v1.0.docx](https://github.com/ctheo94/CURAHealth-KL/files/13327269/Test.Object.Guide.v1.0.docx)
+For more info, you can check this attached document: [Test Object Guide v1.1.docx](https://github.com/ctheo94/CURAHealth-KL/files/13336288/Test.Object.Guide.v1.1.docx)
 
 *Recommend to zoom to at least 200% in Word to be able to see the image clearly
