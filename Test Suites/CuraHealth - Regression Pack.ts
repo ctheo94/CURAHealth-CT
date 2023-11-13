@@ -46,4 +46,11 @@
       <testCaseId>Test Cases/Main Test Case/TC05_User Creates Two Different Appointment Within One Session</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>51788964-47d2-45c6-8c8b-8c4c559fb3e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Case/TC06_User Creates Two Different Appointment and Checks History</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
