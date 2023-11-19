@@ -23,8 +23,16 @@ WebUI.verifyMatch(facilityName, WebUI.getText(findTestObject('Page_CURAHealth_Ap
 WebUI.verifyMatch(isReadmission, WebUI.getText(findTestObject('Page_CURAHealth_Appointment Verification/label_ReadmissionStatus')), 
     false)
 
-WebUI.verifyMatch(programName, WebUI.getText(findTestObject('Page_CURAHealth_Appointment Verification/label_ProgramName')), 
-    false)
+'To mitigate in case other tester did not put "None" in Test Data'
+if (programName == '') {
+    'Automation will automatically use "None" to verify Program Name field on Appointment Success page'
+    WebUI.verifyMatch('None', WebUI.getText(findTestObject('Page_CURAHealth_Appointment Verification/label_ProgramName')), 
+        false)
+} else {
+    'Else, if it found that programName contains string (e.g. Medicaid), it will use said string to compare'
+    WebUI.verifyMatch(programName, WebUI.getText(findTestObject('Page_CURAHealth_Appointment Verification/label_ProgramName')), 
+        false)
+}
 
 WebUI.verifyMatch(visitDate, WebUI.getText(findTestObject('Page_CURAHealth_Appointment Verification/label_VisitationDate')), 
     false)

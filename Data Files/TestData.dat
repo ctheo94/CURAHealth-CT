@@ -10,7 +10,7 @@
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
    <data>John+Doe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM Medicaid 23%2F11%2F2023 Tokyo+CURA+Healthcare+Center Yes Appoint+variation+1 Used+in+Main+Test+Case%2FTC03</data>
-   <data>John+Doe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM Medicare 11%2F01%2F2024 Seoul+CURA+Healthcare+Center No Appoint+variation+2 Used+in+Main+Test+Case%2FTC04</data>
+   <data>John+Doe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM null 11%2F01%2F2024 Seoul+CURA+Healthcare+Center No Appoint+variation+2 Used+in+Main+Test+Case%2FTC04</data>
    <data>Johndoe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM null null null null null For+invalid+username+login</data>
    <data>John+Doe b%2F98lgFmTtuLvynNFOQHnA%3D%3D null null null null null For+invalid+password+login</data>
    <data>John+Doe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM null null null null null Universal+valid+user</data>
