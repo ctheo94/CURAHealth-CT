@@ -23,7 +23,7 @@ WebUI.verifyMatch(facilityName, WebUI.getText(findTestObject('Page_CURAHealth_Ap
 WebUI.verifyMatch(isReadmission, WebUI.getText(findTestObject('Page_CURAHealth_Appointment Verification/label_ReadmissionStatus')), 
     false)
 
-'To mitigate in case other tester did not put "None" in Test Data'
+'To mitigate in case other tester did not put "None" in Test Data for Program Name'
 if (programName == '') {
     'Automation will automatically use "None" to verify Program Name field on Appointment Success page'
     WebUI.verifyMatch('None', WebUI.getText(findTestObject('Page_CURAHealth_Appointment Verification/label_ProgramName')), 
