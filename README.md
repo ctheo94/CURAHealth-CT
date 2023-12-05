@@ -1,4 +1,4 @@
-# CURAHealth-KL
+# CURAHealth-CT
 This repository consist of Katalon automation code to automate [Katalon CURA Healthcare sample website](https://katalon-demo-cura.herokuapp.com/)
 # Prerequisite
 Ensure you have the latest version of Katalon Studio installed in your PC. If not, you can grab it first from [Katalon.com](https://katalon.com/)
