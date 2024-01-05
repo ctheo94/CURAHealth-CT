@@ -19,18 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Component/Browser Related/Start Browser and Head to URL'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Component/Common/Login'), [('username') : findTestData('TestData').getValue(1, 2), ('password') : findTestData(
-            'TestData').getValue(2, 2)], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Component/Common/Login'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Component/Common/Make Appointment'), [('programName') : findTestData('TestData').getValue(
-            3, 2), ('visitDate') : findTestData('TestData').getValue(4, 2), ('facilityName') : findTestData('TestData').getValue(
-            5, 2), ('isReadmission') : findTestData('TestData').getValue(6, 2), ('comment') : findTestData('TestData').getValue(
-            7, 2)], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Component/Common/Make Appointment'), [('programName') : programName, ('visitDate') : visitDate
+        , ('facilityName') : facilityName, ('isReadmission') : isReadmission, ('comment') : comment], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Component/Common/Verify Appointment after Submitting'), [('programName') : findTestData('TestData').getValue(
-            3, 2), ('visitDate') : findTestData('TestData').getValue(4, 2), ('facilityName') : findTestData('TestData').getValue(
-            5, 2), ('isReadmission') : findTestData('TestData').getValue(6, 2), ('comment') : findTestData('TestData').getValue(
-            7, 2)], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Component/Common/Verify Appointment after Submitting'), [('programName') : programName, ('visitDate') : visitDate
+        , ('facilityName') : facilityName, ('isReadmission') : isReadmission, ('comment') : comment], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Component/Common/Sidebar Navigator'), [('navigateTo') : 'History'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Component/Common/Verify History'), [('programName') : programName, ('visitDate') : visitDate
+        , ('facilityName') : facilityName, ('isReadmission') : isReadmission, ('comment') : comment, ('occurence') : occurence], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Component/Common/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
