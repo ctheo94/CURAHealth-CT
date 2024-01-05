@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC03_Make Appointment for Tokyo with Medicaid and Readmission</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bac9d920-308b-4145-84fb-e16da61f05d2</testCaseGuid>
-</TestCaseEntity>

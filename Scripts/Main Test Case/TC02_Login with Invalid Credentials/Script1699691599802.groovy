@@ -19,16 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Component/Browser Related/Start Browser and Head to URL'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Login with invalid username but valid password'
-WebUI.callTestCase(findTestCase('Component/Common/Login'), [('username') : findTestData('TestData').getValue(1, 3), ('password') : findTestData(
-            'TestData').getValue(2, 3)], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURAHealth_Login/label_Login failed Please ensure the username and password'), 
-    'Login failed! Please ensure the username and password are valid.')
-
-'Login with valid username but unvalid password'
-WebUI.callTestCase(findTestCase('Component/Common/Login'), [('username') : findTestData('TestData').getValue(1, 4), ('password') : findTestData(
-            'TestData').getValue(2, 4)], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Component/Common/Login'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_CURAHealth_Login/label_Login failed Please ensure the username and password'), 
     'Login failed! Please ensure the username and password are valid.')

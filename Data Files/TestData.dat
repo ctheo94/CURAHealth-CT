@@ -9,11 +9,11 @@
    <dataFileGUID>6953929b-00ea-4815-9899-b6d25ea552c2</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>John+Doe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM Medicaid 23%2F11%2F2023 Tokyo+CURA+Healthcare+Center Yes Appoint+variation+1 Used+in+Main+Test+Case%2FTC03</data>
-   <data>John+Doe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM null 11%2F01%2F2024 Seoul+CURA+Healthcare+Center No Appoint+variation+2 Used+in+Main+Test+Case%2FTC04</data>
+   <data>John+Doe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM Medicaid 23%2F11%2F2025 Tokyo+CURA+Healthcare+Center Yes Appoint+variation+1 null</data>
+   <data>John+Doe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM Medicare 11%2F01%2F2024 Seoul+CURA+Healthcare+Center No Appoint+variation+2 null</data>
+   <data>John+Doe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM null 06%2F06%2F2024 Hongkong+CURA+Healthcare+Center No Appoint+variation+3 null</data>
    <data>Johndoe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM null null null null null For+invalid+username+login</data>
    <data>John+Doe b%2F98lgFmTtuLvynNFOQHnA%3D%3D null null null null null For+invalid+password+login</data>
-   <data>John+Doe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM null null null null null Universal+valid+user</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>Username</name>
