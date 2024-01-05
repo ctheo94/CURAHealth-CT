@@ -1,25 +1,29 @@
 # CURAHealth-CT
-This repository consist of Katalon automation code to automate [Katalon CURA Healthcare sample website](https://katalon-demo-cura.herokuapp.com/)
+This repository consist of Katalon automation code to automate [Katalon CURA Healthcare sample website](https://katalon-demo-cura.herokuapp.com/).
+
+Now streamlined using test data binding attached to the Test Suite
 # Prerequisite
 Ensure you have the latest version of Katalon Studio installed in your PC. If not, you can grab it first from [Katalon.com](https://katalon.com/)
-# Guide
 
 ### Test Suites
 To run all test cases, you can run the provided Test Suites on this repository.
 
 `CuraHealth - Regression Pack`
 
-![image](https://github.com/ctheo94/CURAHealth-KL/assets/31802223/ff3773b0-9997-4cbd-8eac-d5b166464bc3)
+![image](https://github.com/ctheo94/CURAHealth-CT/assets/31802223/f0a6d944-4d14-44cb-8440-46d41f2786eb)
+
 
 `CuraHealth - Test Suite Collection`
 
-![image](https://github.com/ctheo94/CURAHealth-KL/assets/31802223/57694fe3-34d4-4607-8d2f-f7241e289921)
+![image](https://github.com/ctheo94/CURAHealth-CT/assets/31802223/b1783165-c002-47d0-9c74-ccde475e6185)
+
 
 ### Test Cases
 
 Test cases are located under Test Cases on **Main Test Case** folder
 
-![image](https://github.com/ctheo94/CURAHealth-KL/assets/31802223/994b330a-32f2-47fe-bdca-ed3a89ee857c)
+![image](https://github.com/ctheo94/CURAHealth-CT/assets/31802223/5d9d842a-7f75-480d-a2bd-e2509e97eaa3)
+
 
 ### Object Repository
 
